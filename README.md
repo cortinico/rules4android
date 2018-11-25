@@ -95,11 +95,6 @@ class ExampleTest {
 }
 ```
 
-Will print on the console:
-```
-ExampleTest:aLongTest took 1001 ms
-```
-
 More examples can be found in the `LocaleRuleTest.kt` file.
 
 ## Contributing 🤝
