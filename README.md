@@ -41,7 +41,7 @@ class ExampleTest {
 }
 ```
 
-More examples can be found in the `RetryRuleTest.kt` file.
+More examples can be found in the [`RetryRuleTest.kt`](exampleapp/src/test/java/com/ncorti/rules4android/exampleapp/RetryRuleTest.kt) file.
 
 ### LoggingRule
 
@@ -67,7 +67,7 @@ Will print on the console:
 ExampleTest:aLongTest took 1001 ms
 ```
 
-More examples can be found in the `LoggingRuleTest.kt` file.
+More examples can be found in the [`LoggingRuleTest.kt`](exampleapp/src/test/java/com/ncorti/rules4android/exampleapp/LoggingRuleTest.kt) file.
 
 ### LocaleRule
 
@@ -95,7 +95,7 @@ class ExampleTest {
 }
 ```
 
-More examples can be found in the `LocaleRuleTest.kt` file.
+More examples can be found in the [`LocaleRuleTest.kt`](exampleapp/src/test/java/com/ncorti/rules4android/exampleapp/LocaleRuleTest.kt) file.
 
 ## Contributing 🤝
 
