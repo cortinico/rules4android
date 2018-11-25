@@ -22,7 +22,10 @@ jobs:
           key: jars-{{ checksum "build.gradle" }}-{{ checksum  "rules4android/build.gradle" }}
       - run:
           name: Build
-          command: ./gradlew clean assemble lint test
+          command: ./gradlew clean assemble lint
+      - run:
+          name: Test
+          command: ./gradlew test --info
       - store_artifacts:
           path: exampleapp/build/reports/
           destination: example-app-reports
