@@ -4,6 +4,8 @@
 
 A collection of JUnit Rules that can be helpful to Android Developers. Do you have any idea for a JUnit rule that could be helpful for everyone? Feel free to open an Issue or a Pull request!
 
+This repo contains the source code related to this article: [Don't be lazy, use @Rules](https://ncorti.com/blog/junit-rules).
+
 ## Getting Started 👣
 
 **rules4android** is distributed through [JCenter](https://bintray.com/bintray/jcenter?filterByPkgName=rules4android). To use it you need to add the following **Gradle dependency** to your **android app gradle file** (NOT the root file).
